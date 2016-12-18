@@ -105,9 +105,9 @@ $(call set-device-specific-path,SENSORS,sensors,hardware/qcom/sensors)
 $(call set-device-specific-path,LOC_API,loc-api,vendor/qcom/opensource/location)
 $(call set-device-specific-path,DATASERVICES,dataservices,vendor/qcom/opensource/dataservices)
 
-$(call ril-set-path-variant,ril)
-$(call wlan-set-path-variant,wlan)
-$(call bt-vendor-set-path-variant,bt)
+$(call ril-set-path-variant,ril-caf)
+$(call wlan-set-path-variant,wlan-caf)
+$(call bt-vendor-set-path-variant,bt-caf)
 endif # AOSP_VARIANT_MAKEFILE
 
 else
